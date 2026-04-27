@@ -2,7 +2,7 @@ import axios from "axios";
 
 // ✅ CUSTOM AXIOS INSTANCE
 const API = axios.create({
-    baseURL: "/api",
+    baseURL: "https://nutribalancebackend-production.up.railway.app/api",
     headers: {
         "Content-Type": "application/json"
     }
